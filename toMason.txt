@@ -1,0 +1,41 @@
+
+; <<>> DiG 9.9.7-P3 <<>> +recurse +trace www.jaamm.tech any
+;; global options: +cmd
+.			165852	IN	NS	e.root-servers.net.
+.			165852	IN	NS	h.root-servers.net.
+.			165852	IN	NS	l.root-servers.net.
+.			165852	IN	NS	i.root-servers.net.
+.			165852	IN	NS	a.root-servers.net.
+.			165852	IN	NS	d.root-servers.net.
+.			165852	IN	NS	c.root-servers.net.
+.			165852	IN	NS	b.root-servers.net.
+.			165852	IN	NS	j.root-servers.net.
+.			165852	IN	NS	k.root-servers.net.
+.			165852	IN	NS	g.root-servers.net.
+.			165852	IN	NS	m.root-servers.net.
+.			165852	IN	NS	f.root-servers.net.
+.			165852	IN	RRSIG	NS 8 0 518400 20171108180000 20171026170000 46809 . vEjdvUsEwbUIHty50Xv3edzIxodaCltBo87UuWO249rQLxH4JyzN6vGT 71y4pnaa3Mqt02WikntRWkxA/UtYYe/FDlnuWTih5LUoc0cNFuttFIyO sT3e0qDE+j/9Sgk3busY6Z0eF/qdR30+Cb5g/82yYOEE59YR5xCn61uL rJ99LkExaNSJNEM54THh4qc16jnCWA/YC+DwIsypxUSqlQEOe3I1srjj 29LJG+i9QmHjbu0tSmunOB544l2LjITCzaTe/9Pf9AaoptBiLZrzJS/y RlMLdGUHTHzmOH+o8LX50/UfyfG573bcsMOoVyXARC3f+xol6MyfAIYk cxPT6Q==
+;; Received 525 bytes from 8.8.8.8#53(8.8.8.8) in 89 ms
+
+tech.			172800	IN	NS	a.nic.tech.
+tech.			172800	IN	NS	d.nic.tech.
+tech.			172800	IN	NS	c.nic.tech.
+tech.			172800	IN	NS	b.nic.tech.
+tech.			86400	IN	DS	50095 8 1 82F72F2462DEE25B99DA2470535AD0A7D131F1EB
+tech.			86400	IN	DS	50095 8 2 83F40D01141484D8F07305E5D2E44AC5663149054C598D6E9D993C66 1686C6EE
+tech.			86400	IN	RRSIG	DS 8 1 86400 20171110200000 20171028190000 46809 . U4y40x0PfgAKEnzNH7pozGQ2YoLehib0T5OkYbcVH1vxXEAq+ZUJrHdK eB3rSgf9cq9JoA3H76xlERCleWPUYgToK/x6jhOUMA8tqjaELFNEpYj7 B7FfhvPF6Kex9XsL4pN7qwlI3gGKlI8IjQxAPt+P38D5bO/JTBS4D+d2 vf4d6jmw8zzJqP8LwVXOTyeXzE89L+HDIN+Mrq0pnKK2Gpjkn5AVySWp CRnWCphV/NLwHVQvlrVEOPP5WDJhe9oDVdE0UoSrXdRqbsyC4jf8GBm4 LLAiBf+PYVpznBrIbt3r6D5rbVPHUqa9CdltONHaV4f5ch5IG+Pve6wv 4ui9pQ==
+;; Received 658 bytes from 202.12.27.33#53(m.root-servers.net) in 125 ms
+
+jaamm.tech.		3600	IN	NS	cont603385.earth.orderbox-dns.com.
+jaamm.tech.		3600	IN	NS	cont603385.venus.orderbox-dns.com.
+jaamm.tech.		3600	IN	NS	cont603385.mars.orderbox-dns.com.
+jaamm.tech.		3600	IN	NS	cont603385.mercury.orderbox-dns.com.
+9btf69hmd3n6368rdfnvtq09vgqbb2th.tech. 3600 IN NSEC3 1 1 1 - 9C7O8MM2N7G5N3PMT0NVDQ926VMFO94H NS SOA RRSIG DNSKEY NSEC3PARAM
+9btf69hmd3n6368rdfnvtq09vgqbb2th.tech. 3600 IN RRSIG NSEC3 8 2 3600 20171114033252 20171014150113 20769 tech. lKPwl2/2V8M2M6nLudQUHRXuPW33CBY2t0Jt58gT7hfu2zdv5NyCFilI wm6phxBDdRsIbSaUVozW/Bo4GO1z4qYMu2tsOV5P49OSjnFZtkTaWeZg w+nsogcKmDNAbnvh6yKdB3sXbhj20tdpxVEQHITk0GxoRxr9rJgQV/34 M9A=
+5jfmoq2hg9rpebufu28sciu75el4d753.tech. 3600 IN NSEC3 1 1 1 - 5KLF93BB8F3GGJPSMRF2LB7EM9NK3RV7 NS DS RRSIG
+5jfmoq2hg9rpebufu28sciu75el4d753.tech. 3600 IN RRSIG NSEC3 8 2 3600 20171116194337 20171017224056 65149 tech. KS29D751w98D6KnJ90CTpbHdMtxUm92PVxHxlO7ZM6KMiaNvT/6CzXO8 vjrp4gsO+KD+pSq9kbgzYHPBxqihOsXE83Jzlh0dFHuyMaA3gPOjTf57 iQOpCDIlDfvHNGgqjKRp22d78OLqpodtsvunNtoQbZol2MkGzmdZX503 434=
+;; Received 671 bytes from 185.24.64.60#53(b.nic.tech) in 80 ms
+
+www.jaamm.tech.		3789	IN	HINFO	"ANY/RRSIG query Disabled" "See draft-ietf-dnsop-refuse-any"
+;; Received 112 bytes from 162.251.82.251#53(cont603385.mercury.orderbox-dns.com) in 11 ms
+
