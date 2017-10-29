@@ -25,25 +25,6 @@ ACCESS_TOKEN =consumerSecrets[2]
 
 twitter = Twython(APP_KEY, access_token= ACCESS_TOKEN)
 
-# saves oauth_token and oauth_token_secret
-# ACESS_TOKEN= twitter.obtain_access_token()
-# print(ACESS_TOKEN)
-
-# OAUTH_TOKEN = auth['oauth_token']
-# OAUTH_TOKEN_SECRET = auth['oauth_token_secret']
-
-# twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
-
-## final_step = twitter.get_authorized_tokens(oauth_verifier)
-
-# OAUTH_TOKEN = final_step['oauth_token']
-# OAUTH_TOKEN_SECRET = final_step['oauth_token_secret']
-
-
-
-
-# print(auth['auth_url'])
-
 search_results = twitter.search(q='flooding')
 
 #check to see if file that stores posts exists in current directory as this script
@@ -59,13 +40,14 @@ else:
 entries = search_results['statuses']
 for entry,i in zip(entries, range(len(entries))):
     # print(entry)
-    results[i + offset] = [entry['text'], [random.uniform(30.0, 50.0), random.uniform(70.0, 125.0)]]
+    results[i + offset] = [entry['text'], [random.uniform(20.0, 40.0), random.uniform(70.0, 90.0)]]
 if 'size' in results:
     results["size"] += len(entries)
 else:
     results["size"] = len(entries)
 
-
+results["region-size"] = 20
+results["quadrant-size"] = 2
 
 with open(POSTS_FILE, 'w') as outfile: 
         json.dump(results, outfile)
